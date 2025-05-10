@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="Mon Projet">
+        <meta charset="UTF-8">
+        <title>formulaire Enzo</title>
+        <link rel="stylesheet" type="text/css" href="../../Styles/formenzo.css">
+    </head>
+  <body>
+    
+    <div id="header">
+        <a href="../../index.html"><img src="../../Images/logo.png" alt="logo"></a>
+    </div>
+    <div id="questionnaire">
+    <h1>Questionnaire Enzo </h1>
+    <form>
+      <fieldset>
+        <legend><strong> identité </strong></legend>
+
+        <p>
+          <label>nom</label>
+          <input type="text"/>
+        </p>
+
+        <p>
+          <label>prénom</label>
+          <input type="text"/>
+        </p>
+
+        <p>
+          <label>heure de connexion à la page </label>
+          <input type="text"/>
+
+        </p>
+
+      </fieldset>
+
+      <fieldset id="Qun">
+        <legend><strong> Completer les cases suivantes </strong></legend>
+
+
+        <table>
+          <thead>
+            <tr>
+              <td><strong>Berserk Tome 1</strong></td>
+              <td><input> <input/></td>
+              <td><input> <input/></td>
+            </tr>
+            <tr>
+              <td><input> <input/> /></td>
+              <td><strong>Wajdi Mouawad</strong></td>
+              <td><strong>2003</strong></td>
+            </tr>
+            <tr>
+              <td><strong>12 règles pour une vie</strong></td>
+              <td><strong>Jordan B. Peterson</strong></td>
+              <td><input placeholder="Date ?" /></td>
+            </tr>
+            <tr>
+              <td><input placeholder="Nom du Livre ?" /></td>
+              <td><strong>Jordan B. Peterson</strong></td>
+              <td><strong>2021</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Les 48 lois du pouvoir</strong></td>
+              <td><input placeholder="Auteur ?" /></td>
+              <td><strong>1998</strong></td>
+            </tr>
+          </tbody>
+        </table>
+
+      </fieldset>
+      <fieldset id="Qdeux">
+        <legend class="title"> <strong> peut-on associer à ces auteurs ou titres ?</strong></legend>
+
+        <ul>
+          <li>
+            <label> Jordan B. Peterson est l’auteur de :</label>
+            <select>
+              <option>Choisir</option>
+              <option>Berserk Tome 1</option>
+              <option>Incendies</option>
+              <option>Les 48 lois du pouvoir</option>
+              <option>12 règles pour une vie</option>
+              <option>One Piece</option>
+              <option>L'Alchimiste</option>
+            </select>
+          </li>
+          <li>
+            <label> L’ouvrage publié en 1989 s’intitule :</label>
+            <select>
+              <option>Choisir</option>
+              <option>Berserk Tome 1</option>
+              <option>Incendies</option>
+              <option>Les 48 lois du pouvoir</option>
+              <option>12 règles pour une vie</option>
+              <option>12 nouvelles règles pour une vie</option>
+              <option>L'Étranger</option>
+            </select>
+          </li>
+          <li>
+            <label> parmis ces livres, lequels à été écrit par Robert Greene  :</label>
+            <select>
+              <option>Choisir</option>
+              <option>Berserk Tome 1</option>
+              <option>Incendies</option>
+              <option>Les 48 lois du pouvoir</option>
+              <option>12 règles pour une vie</option>
+              <option>12 nouvelles règles pour une vie</option>
+              <option>Le Prince</option>
+            </select>
+          </li>
+          <li>
+            <label> "Incendies" est une pièce écrite par :</label>
+            <select>
+              <option>Choisir</option>
+              <option>Robert Greene</option>
+              <option>Jordan B. Peterson</option>
+              <option>Wajdi Mouawad</option>
+              <option>Kentaro Miura</option>
+              <option>Victor Hugo</option>
+              <option>Albert Camus</option>
+            </select>
+          </li>
+        </ul>
+
+      </fieldset>
+      <fieldset id="Qtrois3">
+        <legend class="title"> <strong> Pour chaque livre, cochez les informations qui sont exactes </strong></legend>
+      
+        <ul>
+          <li>
+            <span>Berserk Tome 1&nbsp;:</span>
+            <ul>
+              <li><input/>
+                <label>Auteur : Kentaro Miura</label>
+              </li>
+              <li><input/>
+                <label>Publié en 1989</label>
+              </li>
+              <li><input/>
+                <label>Auteur : Jordan Peterson</label>
+              </li>
+              <li><input/>
+                <label>Genre : Manga</label>
+              </li>
+              <li><input/>
+                <label>Langue d'origine : Français</label>
+              </li>
+            </ul>
+          </li>
+      
+          <li>
+            <span>Incendies&nbsp;:</span>
+            <ul>
+              <li><input/>
+                <label>Auteur : Wajdi Mouawad</label>
+              </li>
+              <li><input/>
+                <label>Publié en 2003</label>
+              </li>
+              <li><input/>
+                <label>Genre : Bande dessinée</label>
+              </li>
+              <li><input/>
+                <label>Adapté au cinéma</label>
+              </li>
+            </ul>
+          </li>
+      
+          <li>
+            <span>12 règles pour une vie&nbsp;:</span>
+            <ul>
+              <li><input/>
+                <label>Auteur : Jordan Peterson</label>
+              </li>
+              <li><input/>
+                <label>Publié en 2018</label>
+              </li>
+              <li><input/>
+                <label>Genre : Développement personnel</label>
+              </li>
+              <li><input/>
+                <label>Auteur : Robert Greene</label>
+              </li>
+            </ul>
+          </li>
+      
+          <li>
+            <span>12 nouvelles règles pour une vie&nbsp;:</span>
+            <ul>
+              <li><input/>
+                <label>Suite directe d'un best-seller</label>
+              </li>
+              <li><input/>
+                <label>Auteur : Jordan B. Peterson</label>
+              </li>
+              <li><input/>
+                <label>Publié en 2021</label>
+              </li>
+              <li><input/>
+                <label>Roman de science-fiction</label>
+              </li>
+            </ul>
+          </li>
+      
+          <li>
+            <span>Les 48 lois du pouvoir&nbsp;:</span>
+            <ul>
+              <li><input/>
+                <label>Auteur : Robert Greene</label>
+              </li>
+              <li><input/>
+                <label>Publié en 2003</label>
+              </li>
+              <li><input/>
+                <label>Guide de manipulation et d'influence</label>
+              </li>
+              <li><input/>
+                <label>Roman autobiographique</label>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </fieldset>
+
+
+      <fieldset>
+        <legend class="title"> <strong> Gestion du formulaire </strong></legend>
+
+        <div>
+          <button> Effacer</button>
+          <button> Vérifiers </button>
+          <button> Affiche les résultats</button>
+          <button> Envoyer</button>
+        </div>
+    </div>
+
+      </fieldset>
+    </form>
+
+
+    <hr/>
+
+
+  </body>
+</html>
